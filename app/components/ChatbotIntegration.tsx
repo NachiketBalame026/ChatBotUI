@@ -127,8 +127,8 @@ export default function ChatbotIntegration({ onPrev }: { onPrev: () => void }) {
                 Integration Pending
               </h3>
               <p className="mb-4">
-                We haven't detected the integration on your website yet. Please
-                make sure you've added the code snippet correctly.
+                We havent detected the integration on your website yet. Please
+                make sure youve added the code snippet correctly.
               </p>
               <Button onClick={() => setStep(1)} variant="outline">
                 <FaCode className="mr-2" />
