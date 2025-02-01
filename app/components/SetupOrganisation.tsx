@@ -23,7 +23,7 @@ export default function SetupOrganisation({
   onPrev: () => void;
 }) {
   const [step, setStep] = useState(0);
-  const [scrapingProgress, setScrapingProgress] = useState(0);
+  const [scrapingProgress] = useState(0);
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
